@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f0ff;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8f78d7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .login-btn {
+    background-color: #5650af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px;
+    background-color: #d7c2ff;
+  }
+  
+  .hero h1 {
+    font-size: 46px;
+    color: #333;
+  }
+  
+  .hero p {
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .start-adventure-btn {
+    background-color: #4f3da1;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .stories {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-left: 130px; */
+    background-color:#d7c2ff;
+  }
+  
+  .story-card {
+    text-align: center;
+    background-color: white;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #d7c2ff;
+
+  }
+  
+  .story-card img {
+    width: 80%;
+    border-radius: 8px;
+  }
+  
+  .how-to-use {
+    padding: 40px;
+    text-align: center;
+    background-color: #d7c2ff;
+  }
+  .how-to-use h2{
+    margin-top: 50px;
+  }
+  
+  .how-to-plan {
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    background-color: #4f3da1;
+  }
+  .create-plan{
+    width: 40%;
+    float: left;
+    color: white;
+    /* background-color: red; */
+  }
+  .step {
+    margin: 20px 0;
+    text-align: left;
+    color: black;
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 150px;
+    /* background-color: aqua; */
+  }
+  @media (max-width:1150px) {
+    .step{
+      width: 330px;
+      margin-left: 20px;
+      height: 250px;
+      margin: 0px;
+    }
+  }
+  .step h1{
+    padding-bottom: 10px;
+  }
+  .step-btn{
+    background-color: #4f3da1;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border: none;
+    width: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .two-girls{
+    /* background-color: #7a3cec; */
+    width: 50%;
+    height: 600px;
+    margin-top: 80px;
+    /* float: right; */
+    display: inline-block;
+  }
+  .two-girls img{
+    background-color: #a88e18;
+    width: 450px;
+    height: 450px; 
+    margin-right: 150px;
+    margin-top: 30px;
+    display: flexbox; 
+    float: right;
+  }
+  @media (max-width:300px) {
+    .two-girls img{
+      width: 400px;
+    }
+  }
+  .featured-stories {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    /* background-color: #221657; */
+    width: 100%;
+  }
+  
+  .featured-story {
+    text-align: center;
+    background-color: white;
+  }
+  .featured-story p{
+    color: black;
+    padding-top: 10px;
+    text-align: left;
+  }
+  
+  .featured-story img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .create-stories{
+    text-align: center;
+    background-color: #221657;
+    width: 80%;
+    color: white;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 20px;
+    margin-left: 10%;
+
+  }
+  .create-stories h1{
+    margin: 20px 0;
+    color: white;
+    font-size: 35px;
+  }
+  .create-stories p{
+    margin: 20px 0;
+    color: white;
+  }
+  .create-story-btn {
+    background-color: rgba(255, 217, 0, 0.589);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #8f78d7;
+    color: white;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
